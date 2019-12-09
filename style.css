@@ -5,17 +5,53 @@ html, body {
   background-color: #c78e70;
 }
 
-.hero-image {
+.hero {
+  margin-top: 80px;
+  padding: 30px;
   width: 100vw;
-  height: 60%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url('https://images.unsplash.com/photo-1512508561942-18fbe6d5d0cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80');
+  height: 75%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/hero-img.jpeg');
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#poems {
+header {
+  background-color: #9BA887;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #693015;
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+#poems-body {
   text-align: center;
 }
 
