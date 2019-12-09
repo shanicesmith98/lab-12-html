@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Stylish', sans-serif;
-  background-color: #c78e70;
+  background-color: #9BA887;
 }
 
 .hero {
@@ -49,6 +49,7 @@ header li a {
     font-size: 80px;
     margin-top: 0;
     margin-bottom: 8px;
+    text-shadow: 1px 1px #000000;
 }
 
 #poems-body {
