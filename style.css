@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Stylish', sans-serif;
+  background-color: #c78e70;
+}
+
+.hero-image {
+  width: 100vw;
+  height: 60%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url('https://images.unsplash.com/photo-1512508561942-18fbe6d5d0cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3750&q=80');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#poems {
+  text-align: center;
+}
+
+p {
+  color: #533C2D;
+}
+
+h1, h2 {
+  margin: 20px;
+  padding: 10px;
+  color: #693015;
+}
+
+strong {
+  color: #efd6b8;
+}
+
+th {
+  text-align: center;
+  font-size: 18px;
+  color: #693015;
+}
+
+td {
+  text-align: center;
+  font-size: 18px;
+  color: #533C2D;
+}
+
+#copyright {
+  font-size: 12px;
+  text-align: center;
+}
