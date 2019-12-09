@@ -45,6 +45,24 @@ header li a {
     text-decoration: none;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #693015;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #693015;
+  text-decoration: underline;
+}
+
 .hero h1 {
     font-size: 80px;
     margin-top: 0;
@@ -54,10 +72,12 @@ header li a {
 
 #poems-body {
   text-align: center;
+  padding: 15px;
 }
 
 p {
   color: #533C2D;
+  font-size: 18px;
 }
 
 h1, h2 {
@@ -68,6 +88,10 @@ h1, h2 {
 
 strong {
   color: #efd6b8;
+}
+
+table {
+  width: 100%;
 }
 
 th {
