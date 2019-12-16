@@ -45,13 +45,9 @@ header li a {
     text-decoration: none;
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: none;
-}
-
-a:visited {
   color: #693015;
-  text-decoration: none;
 }
 
 a:hover {
@@ -64,6 +60,7 @@ a:active {
 }
 
 .hero h1 {
+    color: #693015;
     font-size: 80px;
     margin-top: 0;
     margin-bottom: 8px;
@@ -71,6 +68,7 @@ a:active {
 }
 
 #poems-body {
+  max-width: 50vw;
   text-align: center;
   padding: 15px;
 }
@@ -80,10 +78,18 @@ p {
   font-size: 18px;
 }
 
-h1, h2 {
+h2 {
+  color: #693015;
+  font-size: 40px;
   margin: 20px;
   padding: 10px;
+}
+
+h3 {
   color: #693015;
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
 }
 
 strong {
@@ -109,4 +115,5 @@ td {
 #copyright {
   font-size: 12px;
   text-align: center;
+  margin: 10px;
 }
